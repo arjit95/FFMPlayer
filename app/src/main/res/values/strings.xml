@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FFMPlayer</string>
+    <string name="playback_failed">Error playing file. Playback Failed</string>
+</resources>
