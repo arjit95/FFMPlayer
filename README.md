@@ -46,7 +46,6 @@ mp.setOnCompleteListener(new MediaPlayer.OnCompleteListener() {
 mp.setDataSource(<path to file>, <file_id>)
 mp.play();
 //Filter usage more info at https://www.ffmpeg.org/ffmpeg-filters.html
-mPlayer.useFilter("atempo", "0.8");
+mp.useFilter("atempo", "0.8");
 mp.release();
-mp.setDataSource(<path to file2>, <file_id2>);
 ```
